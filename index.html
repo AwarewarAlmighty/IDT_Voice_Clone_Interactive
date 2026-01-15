@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>IDT Voice Clone Interactive – Historical Figures Speak</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <h1>IDT Voice Clone Interactive</h1>
+      <p class="subtitle">
+        Click a figure to hear short quotes that connect directly to the lesson topic.
+      </p>
+      <div class="note">
+        <strong>Note:</strong> Some audio is <span class="pill ai">AI-trained approximation</span> and some is
+        <span class="pill archival">archival recording</span>, prioritizing historical accuracy.
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="grid">
+
+      <!-- Lee Kuan Yew -->
+      <article class="card" data-default="lee1">
+        <div class="card-top">
+          <img class="portrait" src="images/Lee_Kuan_Yew.jpg" alt="Portrait of Lee Kuan Yew" onclick="playAudio('lee1')" />
+          <div class="meta">
+            <div class="name-row">
+              <h2>Lee Kuan Yew</h2>
+              <span class="pill ai">AI-trained approximation</span>
+            </div>
+            <p class="dates">1923–2015 • Founding Prime Minister of Singapore</p>
+            <p class="context">
+              Central to Singapore’s nation-building and governance during the transition to self-government and independence.
+            </p>
+          </div>
+        </div>
+
+        <div class="quote-block">
+          <h3>Quote 1</h3>
+          <p class="quote">“Self-government was only meaningful if Singapore could survive through unity, discipline, and economic strength.”</p>
+          <p class="mini"><strong>Relevance:</strong> Highlights key nation-building challenges after self-government.</p>
+          <p class="mini"><strong>Learning Objective:</strong> Explain how leadership and economic planning supported state survival.</p>
+          <div class="actions">
+            <button class="btn primary" onclick="playAudio('lee1')">▶ Play Quote 1</button>
+          </div>
+        </div>
+
+        <div class="quote-block">
+          <h3>Quote 2</h3>
+          <p class="quote">“Our task was to build a stable government and create opportunities so that Singapore could stand on its own.”</p>
+          <p class="mini"><strong>Relevance:</strong> Connects governance stability to national independence outcomes.</p>
+          <p class="mini"><strong>Learning Objective:</strong> Identify strategies used by new states to strengthen institutions.</p>
+          <div class="actions">
+            <button class="btn" onclick="playAudio('lee2')">▶ Play Quote 2</button>
+          </div>
+        </div>
+
+        <audio id="lee1" src="audio/Lee_Kuan_Yew/Lee_Kuan_Yew_Quote1_Trained.mp3"></audio>
+        <audio id="lee2" src="audio/Lee_Kuan_Yew/Lee_Kuan_Yew_Quote2_Trained.mp3"></audio>
+      </article>
+
+      <!-- Tunku Abdul Rahman -->
+      <article class="card" data-default="tunku1">
+        <div class="card-top">
+          <img class="portrait" src="images/Tunku_Abdul_Rahman.jpg" alt="Portrait of Tunku Abdul Rahman" onclick="playAudio('tunku1')" />
+          <div class="meta">
+            <div class="name-row">
+              <h2>Tunku Abdul Rahman</h2>
+              <span class="pill ai">AI-trained approximation</span>
+            </div>
+            <p class="dates">1903–1990 • First Prime Minister of Malaysia</p>
+            <p class="context">
+              Led peaceful negotiations and coalition-building efforts toward independence and early nation governance.
+            </p>
+          </div>
+        </div>
+
+        <div class="quote-block">
+          <h3>Quote 1</h3>
+          <p class="quote">“Independence required cooperation among communities and a commitment to peaceful political progress.”</p>
+          <p class="mini"><strong>Relevance:</strong> Emphasizes unity and negotiation as foundations for independence.</p>
+          <p class="mini"><strong>Learning Objective:</strong> Describe how cooperation enabled peaceful independence movements.</p>
+          <div class="actions">
+            <button class="btn primary" onclick="playAudio('tunku1')">▶ Play Quote 1</button>
+          </div>
+        </div>
+
+        <div class="quote-block">
+          <h3>Quote 2</h3>
+          <p class="quote">“Independence was achieved through negotiation, compromise, and the collective will of the people.”</p>
+          <p class="mini"><strong>Relevance:</strong> Links democratic legitimacy with independence and stability.</p>
+          <p class="mini"><strong>Learning Objective:</strong> Explain how negotiation shaped post-colonial transitions.</p>
+          <div class="actions">
+            <button class="btn" onclick="playAudio('tunku2')">▶ Play Quote 2</button>
+          </div>
+        </div>
+
+        <audio id="tunku1" src="audio/Tunku_Abdul_Rahman/Tunku_Abdul_Rahman_Quote1_Trained.mp3"></audio>
+        <audio id="tunku2" src="audio/Tunku_Abdul_Rahman/Tunku_Abdul_Rahman_Quote2_Trained.mp3"></audio>
+      </article>
+
+      <!-- David Marshall -->
+<article class="card" data-default="marshall1">
+  <div class="card-top">
+    <img class="portrait" src="images/David_Marshall.jpg"
+         alt="Portrait of David Marshall"
+         onclick="playAudio('marshall1')" />
+
+    <div class="meta">
+      <div class="name-row">
+        <h2>David Marshall</h2>
+        <span class="pill ai">AI-trained approximation</span>
+      </div>
+      <p class="dates">1908–1995 • Singapore’s first Chief Minister</p>
+      <p class="context">
+        Advocated self-government and represented Singapore during early constitutional negotiations.
+      </p>
+    </div>
+  </div>
+
+  <div class="quote-block">
+    <h3>Quote 1</h3>
+    <p class="quote">
+      “The people of Singapore must have the right to govern themselves through democratic means.”
+    </p>
+    <p class="mini"><strong>Relevance:</strong> Emphasizes democratic self-rule during constitutional talks.</p>
+    <p class="mini"><strong>Learning Objective:</strong> Explain why self-government was central to independence movements.</p>
+    <div class="actions">
+      <button class="btn primary" onclick="playAudio('marshall1')">▶ Play Quote 1</button>
+    </div>
+  </div>
+
+  <div class="quote-block">
+    <h3>Quote 2</h3>
+    <p class="quote">
+      “Self-government was essential if Singapore was to determine its own political future.”
+    </p>
+    <p class="mini"><strong>Relevance:</strong> Links political autonomy to long-term national stability.</p>
+    <p class="mini"><strong>Learning Objective:</strong> Identify motivations behind demands for constitutional reform.</p>
+    <div class="actions">
+      <button class="btn" onclick="playAudio('marshall2')">▶ Play Quote 2</button>
+    </div>
+  </div>
+
+  <audio id="marshall1"
+         src="audio/David_Marshall/David_Marshall_Quote1_Trained.mp3"></audio>
+  <audio id="marshall2"
+         src="audio/David_Marshall/David_Marshall_Quote2_Trained.mp3"></audio>
+</article>
+
+    </section>
+  </main>
+
+  <!-- Sticky player -->
+  <footer class="player">
+    <div class="player-inner">
+      <div class="now">
+        <div class="dot" id="statusDot" aria-hidden="true"></div>
+        <div>
+          <div class="now-title" id="nowTitle">Now Playing:</div>
+          <div class="now-sub" id="nowSub">Nothing yet — click a figure or a quote.</div>
+        </div>
+      </div>
+
+      <audio id="globalPlayer" controls preload="none"></audio>
+
+      <div class="player-actions">
+        <button class="btn small" onclick="stopAll()">■ Stop</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
